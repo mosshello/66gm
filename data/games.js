@@ -154,7 +154,7 @@ window.GAMES_DATA = {
                   },
                   {
                       "id":  "shop-gl6qnl",
-                      "name":  "疯狂买买买",
+                      "name":  "疯狂买买买【超高爆率】",
                       "access":  "permanent",
                       "price":  "2.88",
                       "category":  "douyin",
