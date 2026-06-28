@@ -1,0 +1,853 @@
+// 由 games.json 生成，供 file:// 模式直接加载。
+window.GAMES_DATA = {
+    "version":  "1.2",
+    "updated":  "2026-06-28",
+    "categories":  [
+                       {
+                           "id":  "all",
+                           "name":  "全部游戏",
+                           "icon":  "layout-grid"
+                       },
+                       {
+                           "id":  "douyin",
+                           "name":  "抖音爆火",
+                           "icon":  "flame"
+                       },
+                       {
+                           "id":  "app",
+                           "name":  "APP精选",
+                           "icon":  "smartphone"
+                       },
+                       {
+                           "id":  "free",
+                           "name":  "免费解压",
+                           "icon":  "gift"
+                       },
+                       {
+                           "id":  "gm",
+                           "name":  "GM特权",
+                           "icon":  "crown"
+                       },
+                       {
+                           "id":  "vip",
+                           "name":  "全站畅玩",
+                           "icon":  "diamond"
+                       }
+                   ],
+    "tags":  [
+                 {
+                     "id":  "hot",
+                     "name":  "抖音爆款",
+                     "color":  "#e74c3c"
+                 },
+                 {
+                     "id":  "free",
+                     "name":  "免费",
+                     "color":  "#27ae60"
+                 },
+                 {
+                     "id":  "no-ad",
+                     "name":  "免广告",
+                     "color":  "#3498db"
+                 },
+                 {
+                     "id":  "gm",
+                     "name":  "GM特权",
+                     "color":  "#9b59b6"
+                 },
+                 {
+                     "id":  "relax",
+                     "name":  "解压",
+                     "color":  "#1abc9c"
+                 },
+                 {
+                     "id":  "horror",
+                     "name":  "恐怖",
+                     "color":  "#34495e"
+                 },
+                 {
+                     "id":  "sim",
+                     "name":  "模拟",
+                     "color":  "#2980b9"
+                 },
+                 {
+                     "id":  "puzzle",
+                     "name":  "益智",
+                     "color":  "#8e44ad"
+                 },
+                 {
+                     "id":  "action",
+                     "name":  "动作",
+                     "color":  "#e67e22"
+                 },
+                 {
+                     "id":  "casual",
+                     "name":  "休闲",
+                     "color":  "#16a085"
+                 },
+                 {
+                     "id":  "tower",
+                     "name":  "塔防",
+                     "color":  "#d35400"
+                 },
+                 {
+                     "id":  "food",
+                     "name":  "美食",
+                     "color":  "#c0392b"
+                 }
+             ],
+    "games":  [
+                  {
+                      "id":  "vip-001",
+                      "name":  "全站畅玩【持续更新】",
+                      "access":  "permanent",
+                      "price":  "19.9",
+                      "category":  "vip",
+                      "tags":  [
+                                   "no-ad"
+                               ],
+                      "description":  "一次购买，全站畅玩，持续更新，免广告体验所有游戏",
+                      "features":  [
+                                       "1000+游戏免广告",
+                                       "每日更新",
+                                       "GM特权",
+                                       "永久有效"
+                                   ],
+                      "image":  "https://qn.ldxp.cn/9c/f753ca9329980a9db4c23685743bc1.png",
+                      "link":  "https://pay.ldxp.cn/item/ka5t8p",
+                      "hot":  true,
+                      "badge":  "推荐"
+                  },
+                  {
+                      "id":  "shop-mq74wg",
+                      "name":  "赌石刮刮乐",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "casual"
+                               ],
+                      "description":  "赌石刮刮乐，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/a5/d1ec934abf3676156830a66b37dd20.png",
+                      "link":  "https://pay.ldxp.cn/item/mq74wg",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-dngf86",
+                      "name":  "疯狂买买买",
+                      "access":  "permanent",
+                      "price":  "1.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "sim"
+                               ],
+                      "description":  "疯狂买买买，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/77/7c4940f9affd0a9d7df027e95d06eb.png",
+                      "link":  "https://pay.ldxp.cn/item/dngf86",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-gl6qnl",
+                      "name":  "疯狂买买买",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "sim"
+                               ],
+                      "description":  "疯狂买买买，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/77/7c4940f9affd0a9d7df027e95d06eb.png",
+                      "link":  "https://pay.ldxp.cn/item/gl6qnl",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-i04m7y",
+                      "name":  "无限闯关王",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "gm",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "gm",
+                                   "puzzle"
+                               ],
+                      "description":  "无限闯关王，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/87/a185004af323d655f8e80ad1379280.png",
+                      "link":  "https://pay.ldxp.cn/item/i04m7y",
+                      "hot":  true,
+                      "badge":  "GM"
+                  },
+                  {
+                      "id":  "shop-zjvphz",
+                      "name":  "怨楼",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "horror"
+                               ],
+                      "description":  "怨楼，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/41/745020592245d857c55f20140b6266.png",
+                      "link":  "https://pay.ldxp.cn/item/zjvphz",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-os2z2c",
+                      "name":  "99 次逃离",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "horror"
+                               ],
+                      "description":  "99 次逃离，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/a4/cba1875e77063b78f68d83b232ff09.png",
+                      "link":  "https://pay.ldxp.cn/item/os2z2c",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-81eu6c",
+                      "name":  "西游传说",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "gm",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "gm",
+                                   "action"
+                               ],
+                      "description":  "西游传说，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/e6/57fc86881982cf50f373011b327063.png",
+                      "link":  "https://pay.ldxp.cn/item/81eu6c",
+                      "hot":  true,
+                      "badge":  "GM"
+                  },
+                  {
+                      "id":  "shop-7mi3vs",
+                      "name":  "就问你怕不怕",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "casual"
+                               ],
+                      "description":  "就问你怕不怕，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/d8/9ed911e2b8f247ae49c3798eaf7071.png",
+                      "link":  "https://pay.ldxp.cn/item/7mi3vs",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-kolph4",
+                      "name":  "穿越法则",
+                      "access":  "permanent",
+                      "price":  "3.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "casual"
+                               ],
+                      "description":  "穿越法则，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/0e/a33fbde710767009b96c735f48dd0e.png",
+                      "link":  "https://pay.ldxp.cn/item/kolph4",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-mp0rvb",
+                      "name":  "幸运硬币/幸运金币",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "gm",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "gm",
+                                   "casual"
+                               ],
+                      "description":  "幸运硬币/幸运金币，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/0b/e3577b4235e2b923857004934aca7e.png",
+                      "link":  "https://pay.ldxp.cn/item/mp0rvb",
+                      "hot":  true,
+                      "badge":  "GM"
+                  },
+                  {
+                      "id":  "shop-qf8isr",
+                      "name":  "开荒不能停",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "casual"
+                               ],
+                      "description":  "开荒不能停，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/28/5676e23ef1e185a13141daf439fd8f.png",
+                      "link":  "https://pay.ldxp.cn/item/qf8isr",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-tbiiz5",
+                      "name":  "玩了个球",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "casual"
+                               ],
+                      "description":  "玩了个球，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/2b/c28c5669e5d3f558c99f129bf88aa4.png",
+                      "link":  "https://pay.ldxp.cn/item/tbiiz5",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-q8rdb2",
+                      "name":  "模拟咖啡厅",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "sim"
+                               ],
+                      "description":  "模拟咖啡厅，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/aa/cee8d5cf285f66e98389bd65e1fa50.png",
+                      "link":  "https://pay.ldxp.cn/item/q8rdb2",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-ticcn8",
+                      "name":  "美食卖出五套房",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "sim"
+                               ],
+                      "description":  "美食卖出五套房，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/d4/f57bbba05f1fc874d42955f80ca4fc.png",
+                      "link":  "https://pay.ldxp.cn/item/ticcn8",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-8sxt5p",
+                      "name":  "植物进化杂交版",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "gm",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "gm",
+                                   "casual"
+                               ],
+                      "description":  "植物进化杂交版，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/ca/7c52dac21ad833e959749bcd12300e.png",
+                      "link":  "https://pay.ldxp.cn/item/8sxt5p",
+                      "hot":  true,
+                      "badge":  "GM"
+                  },
+                  {
+                      "id":  "shop-m9y39y",
+                      "name":  "堆叠合成",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "casual"
+                               ],
+                      "description":  "堆叠合成，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/7b/4929ec73c6d2eb9bb3cc4f95ef85aa.png",
+                      "link":  "https://pay.ldxp.cn/item/m9y39y",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-ib2f6k",
+                      "name":  "美食解压馆",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "sim"
+                               ],
+                      "description":  "美食解压馆，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/cd/916cb69979d5850f648a7791ec1578.png",
+                      "link":  "https://pay.ldxp.cn/item/ib2f6k",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-ld67ae",
+                      "name":  "富贵玩脑洞",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "puzzle"
+                               ],
+                      "description":  "富贵玩脑洞，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/3c/e568e492b12c0de92ac8695ef1e3ed.png",
+                      "link":  "https://pay.ldxp.cn/item/ld67ae",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-3cvvjy",
+                      "name":  "进化塔防",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "gm",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "gm",
+                                   "tower"
+                               ],
+                      "description":  "进化塔防，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/99/3fba128bb48bc445a96364258e0732.png",
+                      "link":  "https://pay.ldxp.cn/item/3cvvjy",
+                      "hot":  true,
+                      "badge":  "GM"
+                  },
+                  {
+                      "id":  "shop-h493tp",
+                      "name":  "诡异房间",
+                      "access":  "permanent",
+                      "price":  "3.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "horror"
+                               ],
+                      "description":  "诡异房间，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/71/a4109347a0c79827587a01854545f0.png",
+                      "link":  "https://pay.ldxp.cn/item/h493tp",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-rbac2g",
+                      "name":  "校门炒酸奶",
+                      "access":  "permanent",
+                      "price":  "3.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "sim"
+                               ],
+                      "description":  "校门炒酸奶，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/bd/6c8595007b83c41815561a8727b0dd.png",
+                      "link":  "https://pay.ldxp.cn/item/rbac2g",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-sesdv3",
+                      "name":  "火车打僵尸",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "casual"
+                               ],
+                      "description":  "火车打僵尸，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/c0/ff6b36536ef3900ed4232a99b5fd6a.png",
+                      "link":  "https://pay.ldxp.cn/item/sesdv3",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-xwp8mf",
+                      "name":  "女友逆袭记",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "gm",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "gm",
+                                   "casual"
+                               ],
+                      "description":  "女友逆袭记，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/56/9b69c7bbfe728f22cff4a934fc126d.png",
+                      "link":  "https://pay.ldxp.cn/item/xwp8mf",
+                      "hot":  true,
+                      "badge":  "GM"
+                  },
+                  {
+                      "id":  "shop-6mxj86",
+                      "name":  "猛鬼列车/消失的站台",
+                      "access":  "permanent",
+                      "price":  "3.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "horror"
+                               ],
+                      "description":  "猛鬼列车/消失的站台，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/5c/4e96e039b3d82e8cdfe6583a352ed7.png",
+                      "link":  "https://pay.ldxp.cn/item/6mxj86",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-z44c1m",
+                      "name":  "无限打怪",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "action"
+                               ],
+                      "description":  "无限打怪，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/52/1be78116dcabf3a9bf18d8800eb9da.png",
+                      "link":  "https://pay.ldxp.cn/item/z44c1m",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-e8xspl",
+                      "name":  "疯狂模拟器/穷人逆袭记",
+                      "access":  "permanent",
+                      "price":  "3.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "sim"
+                               ],
+                      "description":  "疯狂模拟器/穷人逆袭记，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/fd/62d1858029085229badd6a0861221b.png",
+                      "link":  "https://pay.ldxp.cn/item/e8xspl",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-m9nu8f",
+                      "name":  "修真模拟器",
+                      "access":  "permanent",
+                      "price":  "3.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "sim"
+                               ],
+                      "description":  "修真模拟器，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/62/a0f56a20aab3224b9b1bbbcf8f5b17.png",
+                      "link":  "https://pay.ldxp.cn/item/m9nu8f",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-g1iu17",
+                      "name":  "开局破防了/重返！1998",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "gm",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "gm",
+                                   "casual"
+                               ],
+                      "description":  "开局破防了/重返！1998，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/92/a3420da914960663bde4f7bc280ca0.png",
+                      "link":  "https://pay.ldxp.cn/item/g1iu17",
+                      "hot":  true,
+                      "badge":  "GM"
+                  },
+                  {
+                      "id":  "shop-tmygvs",
+                      "name":  "末日作战队",
+                      "access":  "permanent",
+                      "price":  "2.88",
+                      "category":  "gm",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "gm",
+                                   "action"
+                               ],
+                      "description":  "末日作战队，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/e4/a9701d69a01f5cd2de30024e3025ac.png",
+                      "link":  "https://pay.ldxp.cn/item/tmygvs",
+                      "hot":  true,
+                      "badge":  "GM"
+                  },
+                  {
+                      "id":  "shop-cj6ezr",
+                      "name":  "抓大鹅",
+                      "access":  "permanent",
+                      "price":  "3.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "casual"
+                               ],
+                      "description":  "抓大鹅，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/6e/54b5fc337917fd8b47c2a84d80a406.png",
+                      "link":  "https://pay.ldxp.cn/item/cj6ezr",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-t76kbf",
+                      "name":  "别崩人设啊",
+                      "access":  "permanent",
+                      "price":  "3.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "casual"
+                               ],
+                      "description":  "别崩人设啊，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/1a/b891f77adb95d3df1cef8898a1ff31.png",
+                      "link":  "https://pay.ldxp.cn/item/t76kbf",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-lwlyue",
+                      "name":  "我在阴间当差",
+                      "access":  "permanent",
+                      "price":  "3.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "tower"
+                               ],
+                      "description":  "我在阴间当差，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/6c/454d9273dddf75a4a3e6ea8ee6712d.png",
+                      "link":  "https://pay.ldxp.cn/item/lwlyue",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-97c106",
+                      "name":  "恶魔弹球",
+                      "access":  "permanent",
+                      "price":  "3.88",
+                      "category":  "douyin",
+                      "tags":  [
+                                   "hot",
+                                   "no-ad",
+                                   "casual"
+                               ],
+                      "description":  "恶魔弹球，店铺同步免广告版本",
+                      "image":  "https://qn.ldxp.cn/09/d8c12af071953a358c4b03734c855a.png",
+                      "link":  "https://pay.ldxp.cn/item/97c106",
+                      "hot":  true,
+                      "badge":  "抖音爆款"
+                  },
+                  {
+                      "id":  "shop-vjb0z8",
+                      "name":  "勇者冲锋队",
+                      "access":  "free",
+                      "price":  "免费",
+                      "category":  "free",
+                      "tags":  [
+                                   "free",
+                                   "no-ad",
+                                   "action",
+                                   "relax"
+                               ],
+                      "description":  "勇者冲锋队，免费免广告版本",
+                      "image":  "https://qn.ldxp.cn/32/c6e34b3814ea327aff39094022653b.png",
+                      "link":  "https://pay.ldxp.cn/item/vjb0z8",
+                      "hot":  false,
+                      "badge":  "免费"
+                  },
+                  {
+                      "id":  "shop-yspry5",
+                      "name":  "再闯多一关",
+                      "access":  "free",
+                      "price":  "免费",
+                      "category":  "free",
+                      "tags":  [
+                                   "free",
+                                   "no-ad",
+                                   "casual",
+                                   "relax"
+                               ],
+                      "description":  "再闯多一关，免费免广告版本",
+                      "image":  "https://qn.ldxp.cn/05/eed826b0981bcc891560fee394c177.png",
+                      "link":  "https://pay.ldxp.cn/item/yspry5",
+                      "hot":  false,
+                      "badge":  "免费"
+                  },
+                  {
+                      "id":  "shop-wyzt0k",
+                      "name":  "开局我很强",
+                      "access":  "free",
+                      "price":  "免费",
+                      "category":  "free",
+                      "tags":  [
+                                   "free",
+                                   "no-ad",
+                                   "casual",
+                                   "relax"
+                               ],
+                      "description":  "开局我很强，免费免广告版本",
+                      "image":  "https://qn.ldxp.cn/49/3832635d30bce461544f2a7af3258a.png",
+                      "link":  "https://pay.ldxp.cn/item/wyzt0k",
+                      "hot":  false,
+                      "badge":  "免费"
+                  },
+                  {
+                      "id":  "shop-rrmpb9",
+                      "name":  "落叶清理模拟器",
+                      "access":  "free",
+                      "price":  "免费",
+                      "category":  "free",
+                      "tags":  [
+                                   "free",
+                                   "no-ad",
+                                   "sim",
+                                   "relax"
+                               ],
+                      "description":  "落叶清理模拟器，免费免广告版本",
+                      "image":  "https://qn.ldxp.cn/8b/cd7d74e5d5714e593cd7bb16e293e8.png",
+                      "link":  "https://pay.ldxp.cn/item/rrmpb9",
+                      "hot":  false,
+                      "badge":  "免费"
+                  },
+                  {
+                      "id":  "shop-xlh7mc",
+                      "name":  "快眼侦探",
+                      "access":  "free",
+                      "price":  "免费",
+                      "category":  "free",
+                      "tags":  [
+                                   "free",
+                                   "no-ad",
+                                   "puzzle",
+                                   "relax"
+                               ],
+                      "description":  "快眼侦探，免费免广告版本",
+                      "image":  "https://qn.ldxp.cn/3d/503e5c27f130d6d698aaa3081332bf.png",
+                      "link":  "https://pay.ldxp.cn/item/xlh7mc",
+                      "hot":  false,
+                      "badge":  "免费"
+                  },
+                  {
+                      "id":  "shop-e477qy",
+                      "name":  "消消来闯关",
+                      "access":  "free",
+                      "price":  "免费",
+                      "category":  "free",
+                      "tags":  [
+                                   "free",
+                                   "no-ad",
+                                   "puzzle",
+                                   "relax"
+                               ],
+                      "description":  "消消来闯关，免费免广告版本",
+                      "image":  "https://qn.ldxp.cn/a5/dd8579730fbce3442a3d8f0488ec77.png",
+                      "link":  "https://pay.ldxp.cn/item/e477qy",
+                      "hot":  false,
+                      "badge":  "免费"
+                  },
+                  {
+                      "id":  "shop-o57w4z",
+                      "name":  "我眼神贼好",
+                      "access":  "free",
+                      "price":  "免费",
+                      "category":  "free",
+                      "tags":  [
+                                   "free",
+                                   "no-ad",
+                                   "puzzle",
+                                   "relax"
+                               ],
+                      "description":  "我眼神贼好，免费免广告版本",
+                      "image":  "https://qn.ldxp.cn/65/f7516d2f18df264f7a25e2ced65e59.png",
+                      "link":  "https://pay.ldxp.cn/item/o57w4z",
+                      "hot":  false,
+                      "badge":  "免费"
+                  },
+                  {
+                      "id":  "shop-1ryp4w",
+                      "name":  "八向箭头",
+                      "access":  "free",
+                      "price":  "免费",
+                      "category":  "free",
+                      "tags":  [
+                                   "free",
+                                   "no-ad",
+                                   "puzzle",
+                                   "relax"
+                               ],
+                      "description":  "八向箭头，免费免广告版本",
+                      "image":  "https://qn.ldxp.cn/59/de77e06b209679e7552d443880c93c.png",
+                      "link":  "https://pay.ldxp.cn/item/1ryp4w",
+                      "hot":  false,
+                      "badge":  "免费"
+                  },
+                  {
+                      "id":  "shop-u7ni7w",
+                      "name":  "你能玩几关",
+                      "access":  "free",
+                      "price":  "免费",
+                      "category":  "free",
+                      "tags":  [
+                                   "free",
+                                   "no-ad",
+                                   "casual",
+                                   "relax"
+                               ],
+                      "description":  "你能玩几关，免费免广告版本",
+                      "image":  "https://qn.ldxp.cn/77/1d9e05f0af5a9407b0b8c012dad65c.png",
+                      "link":  "https://pay.ldxp.cn/item/u7ni7w",
+                      "hot":  false,
+                      "badge":  "免费"
+                  }
+              ]
+};
